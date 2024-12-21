@@ -2,15 +2,17 @@
 .AboutUsTop {
     background-color: #13395D;
     color: white;
+    min-width: 344px;
 }
 
 .AU-container {
     line-height: 1.6;
     max-width: 1200px;
-    min-width: 585px;
+    /* min-width: 585px; */
+    min-width: 344px;
     margin: auto;
     padding: 70px 20px;
-    /* background-color: aliceblue; */
+    /* background-color: aquamarine; */
 }
 
 .AU-container h1 {
@@ -36,6 +38,7 @@
 }
 
 .AU-container .content img {
+    min-width: 200px;
     max-width: 450px;
     border-radius: 40px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -47,23 +50,43 @@
 
 .AU-container .text {
     max-height: fit-content;
-    max-width: 470px;
+    max-width: 370px;
     background-color: #B9D5FF;
     padding: 20px 30px;
     border-radius: 40px;
     color: #000000;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
+@media (max-width:997px) {.AU-container .text {
+    padding: 10px 20px;
+    min-width: 250px;
+    max-width: 300px;
+    
+}}
 #AU-section1 .text {
     position: relative;
     right: 3rem;
     bottom: 2.5rem;
 }
+@media (max-width:997px) {#AU-section1 .text {
+    position: relative;
+    right: 1rem;
+    bottom: 2.5rem;
+}}
 #AU-section2 .text {
     position: relative;
     left: 3rem;
     top: 3.3rem;
 }
+@media (max-width:997px) {#AU-section2 .text {
+    position: relative;
+    left: 1rem;
+    top: 3.3rem;
+}}
+@media (max-width:997px) {#AU-section2 .content {
+    position: relative;
+    bottom: 1rem;
+}}
 
 .AU-container .text p {
     font-size: 1.1rem;
@@ -77,12 +100,13 @@
     background-color: #EEF7FF;
     color: #000000;
     width: 100vw;
-    min-width: 585px;
+    /* min-width: 585px; */
+    min-width: 344px;
 }
 
 .BottomSection .features-container {
     max-width: 1200px;
-    min-width: 585px;
+    /* min-width: 585px; */
     margin: auto;
     display: flex;
     justify-content: center;

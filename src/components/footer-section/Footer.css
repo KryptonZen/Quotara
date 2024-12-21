@@ -1,6 +1,7 @@
 
   .FooterArea {
     min-height: 365px;
+    min-width: 344px;
     /* max-height: 600px; */
     background-color: #F1F1F1;
   }

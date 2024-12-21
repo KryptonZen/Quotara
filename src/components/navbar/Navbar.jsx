@@ -24,9 +24,10 @@ function Navbar() {
                         <ul className='MenuNavLinks'>
                         <button onClick={CloseBarMenu}> → </button>
                         <hr />
-                            <Link to="OurAdvantage"> <li> Our Advantage </li> </Link>
-                            <Link to="AboutUs"> <li> About Us </li> </Link>
-                            <Link to="ContactUs"> <li> Pricing </li> </Link>
+                            <Link to="/" onClick={CloseBarMenu}> <li> Home </li> </Link>
+                            <Link to="OurAdvantage" onClick={CloseBarMenu}> <li> Why Us? </li> </Link>
+                            <Link to="AboutUs" onClick={CloseBarMenu}> <li> About Us </li> </Link>
+                            <Link to="ContactUs" onClick={CloseBarMenu}> <li> Pricing </li> </Link>
                         </ul>
                     </div>}
             </div>

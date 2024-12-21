@@ -1,6 +1,7 @@
 
 .MainSectionA {
     width: 1200px;
+    min-width: 344px;
     /* height: 1700px; */
     /* background-color: beige; */
     margin: auto;
@@ -13,9 +14,13 @@
 @media (max-width: 811px) {.MainSectionA {width: 100%;}}
 @media (max-width: 607px) {.MainSectionA {width: 100%;}}
 
+.MainSectionB {
+    min-width: 344px;
+}
+
 
 .Section {
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     min-height: 500px;
     margin-top: 3rem;
     /* padding: 5rem; */
@@ -41,10 +46,10 @@
     width: 1200px;
     margin: auto;
 }
-#section3, #section1 > .TextBlock {
+/* #section3, #section1 > .TextBlock {
     position: relative;
     left: 1rem;
-}
+} */
 /* #section1 > .TextBlock {
     position: relative;
     left: 1rem;
@@ -63,9 +68,9 @@
     position: relative;
     bottom: 4rem;
 }}
-@media (max-width:1000px) {#section3 {
+/* @media (max-width:1000px) {#section3 {
     margin-top: 0;
-}}
+}} */
 
 /* @media (max-width:690px) {.Section > .ImageBlock {
     position: relative;
@@ -112,8 +117,13 @@
     line-height: 3px;
 }
 
-
 .SectionButton {
+    /* background-color: blueviolet; */
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+}
+
+.SectionButton > button {
     color: black;
     background-color: #B9D5FF;
     height: 40px;
@@ -122,28 +132,28 @@
     border-radius: 4px;
     font-size: 0.9rem;
     font-weight: 600;
-    position: relative;
+    /* position: relative;
     bottom: 2rem;
-    left: 1rem;
+    left: 1rem; */
     transition-property: all;
     transition-duration: 0.25s;
     text-decoration: none;
 }
-.SectionButton > a {
+.SectionButton > button > a {
     text-decoration: none;
     color: black;
 }
-.SectionButton:hover {
+.SectionButton > button:hover {
     background-color: hsl(216, 100%, 73%);
     cursor: pointer;
     transform: translate(0, -3px);
 }
-@media (max-width: 1230px) {.SectionButton {bottom: 1rem;}}
-@media (max-width: 1155px) {.SectionButton {bottom: 1rem;}}
-@media (max-width: 1000px) {.SectionButton {
+@media (max-width: 1230px) {.SectionButton > button {bottom: 1rem;}}
+@media (max-width: 1155px) {.SectionButton > button {bottom: 1rem;}}
+/* @media (max-width: 1000px) {.SectionButton > button {
     top: 1.3rem;
     left: 10rem;
-}}
+}} */
 
 
 .ImageBlock {

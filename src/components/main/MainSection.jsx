@@ -9,6 +9,11 @@ function MainSection() {
         <main className="MainSection">
             <section className="MainSectionA">
                 <Section1/>
+
+                <div className="SectionButton">
+                    <button> <Link to='ContactUs'>Start Hiring</Link> </button>
+                </div>
+                
                 <Section2/>
             </section>
 
@@ -21,7 +26,6 @@ function MainSection() {
 
 function Section1() {
     return (
-        <>
         <div className='Section' id="section1">
             
             <div className="TextBlock">
@@ -36,11 +40,7 @@ function Section1() {
             </div>
 
             <img className="ImageBlock" src={img1} alt="person working on laptop" />
-            
-        </div>
-        
-        <button className="SectionButton"> <Link to='ContactUs'>Start Hiring</Link> </button>
-        </>
+        </div>   
     )
 }
 

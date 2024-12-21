@@ -1,6 +1,7 @@
 
 .HeroSection {
     height: 675px;
+    min-width: 344px;
     background-color: #13395D;
     color: white;
     display: flex;
