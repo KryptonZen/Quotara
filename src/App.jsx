@@ -11,10 +11,10 @@ import ScrollToTop from './functions/ScrollToTop'
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Quotara">
       <ScrollToTop/>
       <Routes>
-        <Route path='/' element={ <SharedLayout/> }>
+        <Route path='/Quotara' element={ <SharedLayout/> }>
           <Route index element={ <HomePage/> }/>
           <Route path='OurAdvantage' element={ <OurAdvantage/> } />
           <Route path='AboutUs' element={ <AboutUs/> } />
