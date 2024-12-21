@@ -1,0 +1,133 @@
+
+.HeroSection {
+    height: 675px;
+    background-color: #13395D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    overflow: hidden;
+}
+
+.HeroBackground {
+    background-color: transparent;
+    width: 1600px;
+    min-width: 1550px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3.5rem;
+}
+
+.HeroForeground {
+    background-color: transparent ;
+    height: 675px;
+    width: 790px;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+@media (max-width:790px) {.HeroForeground {width: 770px;}}
+@media (max-width:747px) {.HeroForeground {width: 650px;}}
+@media (max-width:610px) {.HeroForeground {width: 525px;}}
+@media (max-width:507px) {.HeroForeground {width: 425px;}}
+@media (max-width:420px) {.HeroForeground {width: 350px;}}
+
+.HeroContent {
+    background-color: transparent;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 2rem;
+
+}
+
+.HeroHeading {
+    background-color: transparent;
+    font-size: 37px;
+    border-radius: 20px 20px 0 0;
+}
+@media (max-width:815px) {.HeroHeading {font-size: 30px;}}
+@media (max-width:760px) {.HeroHeading {font-size: 25px;}}
+@media (max-width:610px) {.HeroHeading {font-size: 20px;}}
+
+.HeroHeading > h1 > pre {
+    display: inline-block;
+    margin-left: 4px;
+    animation: dotAnimate 1.5s infinite alternate;
+}
+@keyframes dotAnimate {
+    33% {color: #e89205;}
+    66% {color: hsl(193, 100%, 61%);}
+    100% {color: rgb(47, 255, 186);}
+}
+
+.HeroDescription {
+    width: 80%;
+    background-color: transparent;
+    font-size: 20px;
+    margin-top: 1rem;
+    line-height: 2rem;
+    /* word-spacing: 4px; */
+    letter-spacing: 1.5px;
+}
+@media (max-width:815px) {.HeroDescription {font-size: 20px; letter-spacing: 1.4px;}}
+@media (max-width:760px) {.HeroDescription {font-size: 18px; letter-spacing: 1.2px; line-height: 1.5rem; }}
+@media (max-width:610px) {.HeroDescription {font-size: 12px; letter-spacing: 0; line-height: 1.2rem;}}
+
+.HeroButtons {
+    height: 40px;
+    background-color: transparent;
+    margin-top: 1rem;
+}
+
+.HeroButtons button {
+    height: 3rem;
+    border: 2px solid #b9d5ff;
+    margin: 1rem 0.3rem 0 0.3rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.HeroBtnRight {
+    color: white;
+    width: 9rem;
+    background-color: transparent;
+    transition-property: all;
+    transition-duration: 0.25s;
+}
+.HeroBtnRight:hover {
+    background-color:#b9d5ff;
+    color: #13395D;
+    cursor: pointer;
+    transform: translate(0, -3px);
+}
+.HeroBtnLeft {
+    width: 12rem;
+    background-color: #b9d5ff;
+    color: #13395D;
+    transition-property: all;
+    transition-duration: 0.25s;
+}
+.HeroBtnLeft:hover {
+    background-color: hsl(216, 100%, 73%);
+    border: none;
+    cursor: pointer;
+    transform: translate(0, -3px);
+}
+@media (max-width:815px) {.HeroButtons button {height: 2.5rem;}}
+@media (max-width:760px) {.HeroButtons button {height: 2.5rem;}}
+@media (max-width:610px) {.HeroButtons button {height: 2.3rem; font-size: 0.7rem;}}
+
+@media (max-width:815px) {.HeroBtnRight {width: 8rem;}}
+@media (max-width:760px) {.HeroBtnRight {width: 8rem;}}
+@media (max-width:610px) {.HeroBtnRight {width: 7rem;}}
+
+@media (max-width:815px) {.HeroBtnLeft {width: 10rem;}}
+@media (max-width:760px) {.HeroBtnLeft {width: 10rem;}}
+@media (max-width:610px) {.HeroBtnLeft {width: 8rem;}}
+

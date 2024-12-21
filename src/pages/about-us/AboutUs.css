@@ -1,0 +1,119 @@
+
+.AboutUsTop {
+    background-color: #13395D;
+    color: white;
+}
+
+.AU-container {
+    line-height: 1.6;
+    max-width: 1200px;
+    min-width: 585px;
+    margin: auto;
+    padding: 70px 20px;
+    /* background-color: aliceblue; */
+}
+
+.AU-container h1 {
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.AU-container section {
+    margin-bottom: 50px;
+    /* background-color: bisque; */
+    /* height: 500px; */
+}
+
+.AU-container .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* background-color: violet; */
+    /* height: 300px; */
+}
+
+.AU-container .content img {
+    max-width: 450px;
+    border-radius: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width:997px) {.AU-container .content img, .AU-container .text {
+    height: auto;
+}}
+
+.AU-container .text {
+    max-height: fit-content;
+    max-width: 470px;
+    background-color: #B9D5FF;
+    padding: 20px 30px;
+    border-radius: 40px;
+    color: #000000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+#AU-section1 .text {
+    position: relative;
+    right: 3rem;
+    bottom: 2.5rem;
+}
+#AU-section2 .text {
+    position: relative;
+    left: 3rem;
+    top: 3.3rem;
+}
+
+.AU-container .text p {
+    font-size: 1.1rem;
+    margin: 0;
+    position: relative;
+}
+
+/* ———————————————————BottomSection——————————————————————— */
+
+.BottomSection {
+    background-color: #EEF7FF;
+    color: #000000;
+    width: 100vw;
+    min-width: 585px;
+}
+
+.BottomSection .features-container {
+    max-width: 1200px;
+    min-width: 585px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 7rem 5rem ;
+}
+
+.BottomSection .feature {
+    min-width: 235px;
+    max-width: 245px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    flex: 1 1 calc(25% - 20px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.BottomSection .feature img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.BottomSection .feature h3 {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    color: #0b3056;
+}
+
+.BottomSection .feature p {
+    font-size: 0.9rem;
+    color: #555555;
+}

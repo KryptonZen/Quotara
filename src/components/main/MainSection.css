@@ -1,0 +1,189 @@
+
+.MainSectionA {
+    width: 1200px;
+    /* height: 1700px; */
+    /* background-color: beige; */
+    margin: auto;
+}
+
+@media (max-width: 1230px) {.MainSectionA {width: 1100px;}}
+@media (max-width: 1155px) {.MainSectionA {width: 950px;}}
+@media (max-width: 970px) {.MainSectionA {width: 850px;}}
+@media (max-width: 873px) {.MainSectionA {width: 750px;}}
+@media (max-width: 811px) {.MainSectionA {width: 100%;}}
+@media (max-width: 607px) {.MainSectionA {width: 100%;}}
+
+
+.Section {
+    /* background-color: aliceblue; */
+    min-height: 500px;
+    margin-top: 3rem;
+    /* padding: 5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section3Bg {
+    /* border: 2px solid brown; */
+    /* width: 1200px; */
+    /* margin: auto; */
+    background-image: url(../../assets/salesteam-background.jpeg);
+    /* width: 100wv; */
+
+    min-height: 500px;
+    /* margin-top: 0rem; */
+    /* padding: 5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section3 {
+    width: 1200px;
+    margin: auto;
+}
+#section3, #section1 > .TextBlock {
+    position: relative;
+    left: 1rem;
+}
+/* #section1 > .TextBlock {
+    position: relative;
+    left: 1rem;
+} */
+
+@media (max-width:1000px) {#section1, #section3 {
+    flex-wrap: wrap;
+    padding: 0 2rem 0 2rem;
+}}
+@media (max-width:1000px) {#section2 {
+    flex-wrap: wrap-reverse;
+    padding: 0 2rem 0 2rem;
+    margin-top: 7rem;
+}}
+@media (max-width:1000px) {#section2 > .ImageBlock {
+    position: relative;
+    bottom: 4rem;
+}}
+@media (max-width:1000px) {#section3 {
+    margin-top: 0;
+}}
+
+/* @media (max-width:690px) {.Section > .ImageBlock {
+    position: relative;
+    bottom: 5rem;
+}} */
+
+
+.TextBlock {
+    /* min-height: 400px; */
+    /* max-height: 800px; */
+    min-width: 50%;
+    /* background-color: lightskyblue; */
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.SectionHeading {
+    font-size: 3.5rem;
+}
+@media (max-width:500px) {.SectionHeading {
+    font-size: 2.5rem;
+}}
+
+.SectionDescription {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.SectionChecklist {
+    font-size: 1.2rem;
+    position: relative;
+    left: 1.5rem;
+}
+.SectionChecklist li {
+    padding: 0.5rem 0 0.5rem 0;
+    list-style-image: url('../../assets/tick.svg')
+}
+.SectionChecklist li::marker {
+    font-size: 2.6rem;
+    line-height: 3px;
+}
+
+
+.SectionButton {
+    color: black;
+    background-color: #B9D5FF;
+    height: 40px;
+    width: 115px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 2rem;
+    left: 1rem;
+    transition-property: all;
+    transition-duration: 0.25s;
+    text-decoration: none;
+}
+.SectionButton > a {
+    text-decoration: none;
+    color: black;
+}
+.SectionButton:hover {
+    background-color: hsl(216, 100%, 73%);
+    cursor: pointer;
+    transform: translate(0, -3px);
+}
+@media (max-width: 1230px) {.SectionButton {bottom: 1rem;}}
+@media (max-width: 1155px) {.SectionButton {bottom: 1rem;}}
+@media (max-width: 1000px) {.SectionButton {
+    top: 1.3rem;
+    left: 10rem;
+}}
+
+
+.ImageBlock {
+    height: 400px;
+    width: 50%;
+    /* background-color: lightcoral; */
+    display: inline-block;
+    border-radius: 20px;
+}
+@media (max-width: 1230px) {.ImageBlock {height: 300px; width: 40%;}}
+@media (max-width: 1155px) {.ImageBlock {height: 275px; width: 40%;}}
+@media (max-width: 1000px) {.ImageBlock {
+    height: 425px;
+    width: 92%;
+    object-fit: contain;
+}}
+@media (max-width: 813px) {.ImageBlock {
+    height: 360px;
+    width: 92%;
+    object-fit: contain;
+}}
+@media (max-width: 674px) {.ImageBlock {
+    height: 315px;
+    width: 92%;
+    object-fit: contain;
+}}
+@media (max-width: 599px) {.ImageBlock {
+    height: 270px;
+    width: 92%;
+    object-fit: contain;
+}}
+@media (max-width: 527px) {.ImageBlock {
+    height: 230px;
+    width: 92%;
+    object-fit: contain;
+}}
+
+
+#Section2TextBlock {
+    margin-left: 1.7rem;
+    position: relative;
+    bottom: 5rem;
+}
