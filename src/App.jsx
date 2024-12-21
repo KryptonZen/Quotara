@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter basename="/Quotara">
       <ScrollToTop/>
       <Routes>
-        <Route path='/Quotara' element={ <SharedLayout/> }>
+        <Route exact path='/' element={ <SharedLayout/> }>
           <Route index element={ <HomePage/> }/>
           <Route path='OurAdvantage' element={ <OurAdvantage/> } />
           <Route path='AboutUs' element={ <AboutUs/> } />
