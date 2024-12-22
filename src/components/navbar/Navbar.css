@@ -9,12 +9,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
     /* overflow: flow-root; */
-    z-index: 5;
     /* position: fixed; working */
     position: sticky;
+    z-index: 5;
     top: 0;
 }
 
@@ -60,7 +60,9 @@
     transition-duration: 0.15s;
 }
 .NavLinks a:hover {
-    background-color: #325373;
+    /* background-color: #325373; */
+    background-color: #1c6468;
+    border-radius: 4px;
 }
 
 @media (max-width: 670px) {.NavLinks {display: none;}}
@@ -80,6 +82,11 @@
     /* margin-right: 80px; */
     opacity: 70%;
     display: none;
+    transition-property: all;
+    transition-duration: 0.25s;
+}
+.BarsButton:active {
+    transform: rotate(40deg);
 }
 .BarsButton > img {
     width: 50px;
@@ -88,34 +95,54 @@
 @media (max-width: 670px) {.BarsButton {display: flex;}}
 
 .BarMenu {
-    width: 70vw;
-    height: 100vh;
+    width: 100vw;
+    height: 35vh;
     /* background-color:bisque; */
-    background-color: rgba(255, 255, 255, 0.65);
+    /* background-color: rgba(23, 56, 42, 0.65); */
+    background-color: rgb(23, 56, 42);
     /* border-radius: 16px; */
     /* opacity: 50%; */
     backdrop-filter: blur(50px);
     position: fixed;
-    top: 0;
+    z-index: 4;
+    top: 90px;
     right: 0;
+    transition-property: all;
+    transition-duration: 0.25s;
+    /* transition-timing-function:ease-in-out; */
+    /* opacity: 0; */
+    transform: translate(0, -125%);
+}
+
+.BarMenu.show {
+    /* opacity: 1; */
+    transform: translateY(0);
+
 }
 
 .MenuNavLinks {
-    color: #13395D;
+    /* color: #13395D; */
     /* background-color: beige; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 1rem 35px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .MenuNavLinks button {
     background-color: transparent;
     border: none;
-    color: #13395D;
+    color: white;
+    opacity: 60%;
     font-size: 2.7rem;
     margin-bottom: 1rem;
     text-align: center;
     cursor: pointer;
+}
+.MenuNavLinks hr {
+    color: white;
+    opacity: 60%;
 }
 
 .MenuNavLinks a {
@@ -124,18 +151,19 @@
 .MenuNavLinks li {
     /* display: inline; */
     list-style-type: none;
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 1.4rem;
+    /* font-weight: 500; */
     letter-spacing: 1px;
     /* background-color: aquamarine; */
     padding: 0.5rem 0;
     transition-property: all;
     transition-duration: 0.15s;
-    color: rgb(44, 16, 135);
+    color: white;
+    opacity: 60%;
 }
 .MenuNavLinks li:hover {
     /* background-color: hsl(209, 48%, 81%); */
-    background-color: hsl(0, 0%, 87%);
+    background-color: rgba(38, 93, 70, 0.876);
     border-radius: 8px;
     transform: scale(1.05);
     padding-left: 0.7rem;

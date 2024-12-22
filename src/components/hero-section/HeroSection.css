@@ -95,7 +95,8 @@
 
 .HeroButtons button {
     height: 3rem;
-    border: 2px solid #b9d5ff;
+    /* border: 2px solid #b9d5ff; */
+    border: 2px solid hsl(151, 60%, 75%);
     margin: 1rem 0.3rem 0 0.3rem;
     border-radius: 4px;
     font-size: 0.9rem;
@@ -109,20 +110,22 @@
     transition-duration: 0.25s;
 }
 .HeroBtnRight:hover {
-    background-color:#b9d5ff;
+    /* background-color:#b9d5ff; */
+    background-color:hsl(151, 60%, 75%);
     color: #13395D;
     cursor: pointer;
     transform: translate(0, -3px);
 }
 .HeroBtnLeft {
     width: 12rem;
-    background-color: #b9d5ff;
+    background-color: hsl(151, 60%, 75%);
     color: #13395D;
     transition-property: all;
     transition-duration: 0.25s;
 }
 .HeroBtnLeft:hover {
-    background-color: hsl(216, 100%, 73%);
+    /* background-color: hsl(216, 100%, 73%); */
+    background-color: #6cc59a;
     border: none;
     cursor: pointer;
     transform: translate(0, -3px);

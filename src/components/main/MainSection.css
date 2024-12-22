@@ -126,7 +126,7 @@
 
 .SectionButton > button {
     color: black;
-    background-color: #B9D5FF;
+    background-color: hsl(151, 60%, 75%);
     height: 40px;
     width: 115px;
     border: none;
@@ -145,7 +145,7 @@
     color: black;
 }
 .SectionButton > button:hover {
-    background-color: hsl(216, 100%, 73%);
+    background-color: #6cc59a;
     cursor: pointer;
     transform: translate(0, -3px);
 }
