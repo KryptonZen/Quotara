@@ -1,5 +1,5 @@
 import './Navbar.css'
-import barsIcn from "../../assets/bars.svg"
+import barsIcn from "../../assets/bars2.svg"
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -16,7 +16,7 @@ function Navbar() {
                 <NavLinks/>
                 
                 <button className='BarsButton' onClick={OpenBarMenu}>
-                    {/* <img src={barsIcn} alt="menu-icon"/> */}BUTTON
+                    <img src={barsIcn} alt="menu-icon"/>
                 </button>
                 
                 {isOpen &&
