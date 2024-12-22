@@ -4,8 +4,8 @@
     width: 100vw;
     min-width: 344px;
     height: 90px;
-    background-color: #13395D;
-    /* background-color: #5d3113; */
+    /* background-color: #13395D; */
+    background-color: #8e6c56;
     display: flex;
     align-items: center;
     position: relative;
@@ -17,20 +17,23 @@
 }
 
 .NavDiv {
+    /* color: aquamarine; */
+    overflow: hidden;
     width: 100vw;
     max-width: 1200px;
+    /* height: 100%; */
     /* min-width: 500px; */
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     justify-content: space-between;
-    /* background-color: rgb(164, 62, 62); */
+    background-color: rgb(164, 62, 62);
     align-items: center;
 }
 
 .Logo {
     font-size: 3.5rem;
     font-weight: 700;
-    /* background-color: rgb(165, 117, 117); */
+    background-color: rgb(117, 128, 165);
     padding-left: 1rem;
     text-decoration: none;
     color: white;
@@ -38,7 +41,7 @@
 
 .NavLinks {
     width: 550px;
-    /* background-color: cadetblue; */
+    background-color: cadetblue;
     display: flex;
     justify-content: space-evenly;
 }
@@ -61,7 +64,8 @@
 @media (max-width: 670px) {.NavLinks {display: none;}}
 
 .BarsButton {
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: rgb(255, 194, 71);
     color: white;
     /* border: 1px solid white; */
     border: none;
