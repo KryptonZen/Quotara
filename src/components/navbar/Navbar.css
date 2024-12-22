@@ -1,17 +1,18 @@
 
 .Navbar {
     color: white;
-    /* width: 100vw; */
+    width: 100vw;
     min-width: 344px;
     height: 90px;
     background-color: #13395D;
+    /* background-color: #5d3113; */
     display: flex;
     align-items: center;
     position: relative;
     overflow: hidden;
     /* overflow: flow-root; */
     z-index: 5;
-    position: sticky;
+    position: fixed;
     top: 0;
 }
 
