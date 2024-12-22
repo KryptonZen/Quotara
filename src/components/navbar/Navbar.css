@@ -4,8 +4,8 @@
     width: 100vw;
     min-width: 344px;
     height: 90px;
-    /* background-color: #13395D; */
-    background-color: #8e6c56;
+    background-color: #13395D;
+    /* background-color: #8e6c56; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,8 @@
     overflow: hidden;
     /* overflow: flow-root; */
     z-index: 5;
-    position: fixed;
+    /* position: fixed; working */
+    position: sticky;
     top: 0;
 }
 
@@ -75,6 +76,7 @@
     cursor: pointer;
     margin: 20px;
     margin-left: 40px;
+    margin-right: 80px;
     opacity: 70%;
     display: none;
 }
