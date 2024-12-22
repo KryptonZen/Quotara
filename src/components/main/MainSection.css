@@ -20,7 +20,7 @@
 
 
 .Section {
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     min-height: 500px;
     margin-top: 3rem;
     /* padding: 5rem; */
@@ -80,7 +80,7 @@
 
 .TextBlock {
     /* min-height: 400px; */
-    /* max-height: 800px; */
+    /* height: 400px; */
     min-width: 50%;
     /* background-color: lightskyblue; */
     display: inline-block;
@@ -89,6 +89,7 @@
     justify-content: space-between;
     padding: 1rem;
 }
+@media (min-width:800px) {.TextBlock {height: 400px;}}
 
 .SectionHeading {
     font-size: 3.5rem;

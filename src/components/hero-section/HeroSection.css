@@ -3,7 +3,8 @@
     height: 675px;
     /* width: 100vw; */
     min-width: 344px;
-    background-color: #13395D;
+    /* background-color: #13395D; */
+    background-color: #17382a;
     color: white;
     display: flex;
     justify-content: center;
@@ -51,7 +52,7 @@
 .HeroHeading {
     background-color: transparent;
     /* background-color: #b9d5ff22; */
-    font-size: 37px;
+    font-size: 35px;
     padding: 0 0.5rem;
     /* display: inline-block;
     flex-wrap: nowrap; */

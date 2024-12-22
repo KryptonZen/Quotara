@@ -29,13 +29,13 @@ function Section1() {
         <div className='Section' id="section1">
             
             <div className="TextBlock">
-                <h2 className="SectionHeading"> Hassle-free remote hiring!</h2>
-                <p className="SectionDescription">Want to explore the benefits of international sales reps but don’t know where to start? You’re in the right place!</p>
+                <h2 className="SectionHeading">Effortless Remote Hiring Made Simple!</h2>
+                <p className="SectionDescription">Curious about the advantages of international sales reps but unsure where to begin? You’ve come to the right place!</p>
                 <ul className="SectionChecklist">
-                    <li>Excellent English skills</li>
-                    <li>Years of experience in sales</li>
-                    <li>The perfect sales rep for your company</li>
-                    <li>Only $1,000/month for top talent</li>
+                    <li>Exceptional English proficiency</li>
+                    <li>Extensive sales experience</li>
+                    <li>The ideal sales talent for your business</li>
+                    {/* <li>Only $1,000/month for top talent</li> */}
                 </ul>
             </div>
 

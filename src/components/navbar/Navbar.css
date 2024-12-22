@@ -4,8 +4,8 @@
     /* width: 100vw; */
     min-width: 344px;
     height: 90px;
-    /* background-color: #13395D; */
-    background-color: #8e6c56;
+    background-color: #13395D;
+    /* background-color: #8e6c56; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@
     /* margin: auto; */
     display: flex;
     justify-content: space-between;
-    background-color: rgb(164, 62, 62);
+    /* background-color: rgb(164, 62, 62); */
     align-items: center;
 }
 
@@ -43,7 +43,7 @@
 
 .NavLinks {
     width: 550px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -71,14 +71,19 @@
     color: white;
     /* border: 1px solid white; */
     border: none;
-    width: 40px;
-    min-width: 28px;
+    /* width: 40px; */
+    /* height: 40px; */
+    /* min-width: 28px; */
     cursor: pointer;
     margin: 20px;
     margin-left: 40px;
     /* margin-right: 80px; */
-    /* opacity: 70%; */
+    opacity: 70%;
     display: none;
+}
+.BarsButton > img {
+    width: 50px;
+    /* min-width: 20px; */
 }
 @media (max-width: 670px) {.BarsButton {display: flex;}}
 
