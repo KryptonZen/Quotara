@@ -16,7 +16,7 @@ function Navbar() {
                 <NavLinks/>
                 
                 <button className='BarsButton' onClick={OpenBarMenu}>
-                    <img src={barsIcn} alt="menu-icon"/>
+                    {/* <img src={barsIcn} alt="menu-icon"/> */}BUTTON
                 </button>
                 
                 {isOpen &&
