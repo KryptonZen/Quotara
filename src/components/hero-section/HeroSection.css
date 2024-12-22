@@ -1,6 +1,7 @@
 
 .HeroSection {
     height: 675px;
+    /* width: 100vw; */
     min-width: 344px;
     background-color: #13395D;
     color: white;
@@ -22,18 +23,18 @@
 .HeroForeground {
     background-color: transparent ;
     height: 675px;
-    width: 790px;
+    max-width: 790px;
     margin: auto;
     position: absolute;
     display: flex;
     align-items: center;
     z-index: 1;
 }
-@media (max-width:790px) {.HeroForeground {width: 770px;}}
+/* @media (max-width:790px) {.HeroForeground {width: 770px;}}
 @media (max-width:747px) {.HeroForeground {width: 650px;}}
 @media (max-width:610px) {.HeroForeground {width: 525px;}}
 @media (max-width:507px) {.HeroForeground {width: 425px;}}
-@media (max-width:420px) {.HeroForeground {width: 350px;}}
+@media (max-width:420px) {.HeroForeground {width: 350px;}} */
 
 .HeroContent {
     background-color: transparent;
@@ -44,17 +45,22 @@
     text-align: center;
     position: relative;
     bottom: 2rem;
-
 }
+@media (max-width:610px) {.HeroContent {gap: 0.4rem;}}
 
 .HeroHeading {
     background-color: transparent;
+    /* background-color: #b9d5ff22; */
     font-size: 37px;
-    border-radius: 20px 20px 0 0;
+    padding: 0 0.5rem;
+    /* display: inline-block;
+    flex-wrap: nowrap; */
+    /* border-radius: 20px 20px 0 0; */
+    /* border-radius: 20px; */
 }
 @media (max-width:815px) {.HeroHeading {font-size: 30px;}}
 @media (max-width:760px) {.HeroHeading {font-size: 25px;}}
-@media (max-width:610px) {.HeroHeading {font-size: 20px;}}
+@media (max-width:610px) {.HeroHeading {font-size: 17px;}}
 
 .HeroHeading > h1 > pre {
     display: inline-block;

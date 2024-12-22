@@ -16,7 +16,7 @@ function HeroSection() {
                 <header className="HeroContent">
 
                     <div className="HeroHeading">
-                        <h1>Amazing sales reps that cost 80% less than US equivalents<pre>.</pre> </h1>
+                        <h1>Highly skilled sales professionals at up to 80% lower cost than U.S-based reps<pre>.</pre> </h1>
                     </div>
 
                     <div className="HeroDescription">
