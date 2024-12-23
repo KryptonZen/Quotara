@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     /* position: relative; */
-    overflow: hidden;
+    /* overflow: hidden; */
     /* overflow: flow-root; */
     /* position: fixed; working */
     position: sticky;
@@ -47,7 +47,44 @@
     /* background-color: cadetblue; */
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
+
+.ServicesButton {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #9EABA6;
+    background-color: transparent;
+    /* opacity: 0.6; */
+    padding: 0.6rem;
+    transition-property: all;
+    transition-duration: 0.15s;
+    border: none;
+    position: relative;
+    transform: translateY(-3px);
+}
+.ServicesButton:hover {
+    background-color: #18534D;
+    border-radius: 4px;
+}
+.ServicesButton img {transform: translateY(8px);}
+
+.ServicesDropDown {
+    width: 200px;
+    display: none;
+    background-color: #1c6468;
+    position: absolute;
+    z-index: 7;
+    top: 100%;
+    left: 4px;
+    border-radius: 4px;
+    transform: translateX(-3px);
+}
+.ServicesButton:hover .ServicesDropDown {
+    display: flex;
+}
+.ServicesDropDown > a {width: 100%; opacity: 0.7;}
+.ServicesDropDown > a:hover {opacity: 1;}
 
 .NavLinks a {
     text-decoration: none;

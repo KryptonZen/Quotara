@@ -23,10 +23,12 @@
 
 .HeroForeground {
     background-color: transparent ;
+    /* background-color: #e89205; */
     height: 675px;
     max-width: 790px;
     margin: auto;
     position: absolute;
+    /* position: relative; */
     display: flex;
     align-items: center;
     z-index: 1;
@@ -50,18 +52,22 @@
 @media (max-width:610px) {.HeroContent {gap: 0.4rem;}}
 
 .HeroHeading {
-    background-color: transparent;
+    /* background-color: transparent; */
     /* background-color: #b9d5ff22; */
-    font-size: 35px;
     padding: 0 0.5rem;
     /* display: inline-block;
     flex-wrap: nowrap; */
     /* border-radius: 20px 20px 0 0; */
     /* border-radius: 20px; */
 }
-@media (max-width:815px) {.HeroHeading {font-size: 30px;}}
-@media (max-width:760px) {.HeroHeading {font-size: 25px;}}
-@media (max-width:610px) {.HeroHeading {font-size: 17px;}}
+/* .HeroHeading > h1 {;} */
+@media (min-width:718px) {.HeroHeading > h1 {padding: 0 4rem}}
+@media (max-width:815px) {.HeroHeading > h1 {font-size: 45px;}}
+@media (max-width:472px) {.HeroHeading > h1 {font-size: 35px;}}
+@media (max-width:366px) {.HeroHeading > h1 {font-size: 30px;}}
+
+/* @media (max-width:760px) {.HeroHeading > h1 {font-size: 25px;}}
+@media (max-width:629px) {.HeroHeading > h1 {font-size: 17px;}} */
 
 .HeroHeading > h1 > pre {
     display: inline-block;

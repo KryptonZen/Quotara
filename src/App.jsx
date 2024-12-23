@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage'
 import ErrorPage from './pages/not-found/Error'
 import SharedLayout from './pages/SharedLayout'
 import ScrollToTop from './functions/ScrollToTop'
+import OutboundSDRs from './pages/services/OutboundSDRs'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={ <SharedLayout/> }>
           <Route index element={ <HomePage/> }/>
+          <Route path='OutboundSDRs' element={ <OutboundSDRs/> } />
           <Route path='OurAdvantage' element={ <OurAdvantage/> } />
           <Route path='AboutUs' element={ <AboutUs/> } />
           <Route path='ContactUs' element={ <ContactUs/> } />
@@ -23,6 +25,7 @@ function App() {
         <Route path='*' element={ <ErrorPage/> }/>
       </Routes>
     </BrowserRouter>
+    // <OutboundSDRs/>
   )
 }
 

@@ -1,0 +1,254 @@
+
+/* Utility Classes */
+.OutSDRs .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    /* background-color: #46586f90; */
+}
+.OutSDRs h1, .OutSDRs h2 {
+    color: #ffffff;;
+}
+h1 {font-size: 3.5rem;}
+h2 {font-size: 2rem;}
+
+@media (max-width:800px) {.OutSDRs h1 {
+    font-size: 2.5rem;
+}}
+/* ul {
+    padding: 16px;
+    list-style: none;
+} */
+.OutSDRs img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Hero Section */
+.OutSDRs .reach-prospects {
+    background: #183a5a;
+    color: #ffffff;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OutSDRs .reach-prospects .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.OutSDRs .reach-prospects .text-content {
+    max-width: 500px;
+    /* background-color: #3d587e; */
+}
+
+.OutSDRs .reach-prospects p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    padding-top: 1rem;
+}
+@media (max-width:800px) {.OutSDRs .reach-prospects p {
+    margin-bottom: 1.3rem;
+}}
+
+.OutSDRs .reach-prospects .image-content img {
+    background-color: aquamarine;
+    border-radius: 36px;
+}
+
+/* What We Do Section */
+.OutSDRs .what-we-do {
+    background: #0b3050;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.OutSDRs .what-we-do h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.OutSDRs .services-div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap; */
+    /* background-color: rgba(127, 255, 212, 0.148); */
+    margin: auto;
+}
+@media (min-width:820px) {.OutSDRs .services-div {max-width: 50%;}}
+
+.OutSDRs .service {
+    /* background-color: #49668b; */
+    /* flex: 1; */
+    /* margin-right: 20px; */
+    /* padding: 2rem; */
+    /* margin-bottom: 1rem; */
+    border-left: 2px orange solid;
+    padding-left: 1rem;
+}
+.OutSDRs .service h2 {color: #E89205; margin-bottom: 1rem;}
+.OutSDRs .service p {font-size: 1.2rem;}
+
+.OutSDRs .service-list {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #9FC5E8;
+    /* background-color: #56689be9; */
+    /* flex: 1; */
+    /* padding-left: 20px; */
+    border-left: 2px #9FC5E8 solid;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    list-style: none;
+}
+.OutSDRs .service-list li {padding-top: 2rem;}
+
+/* How We Do It Section */
+.OutSDRs .how-we-do-it {
+    background: #f0f4fa;
+    color: #183a5a;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.OutSDRs .how-we-do-it .image-content {
+    /* flex: 1; */
+    padding: 16px;
+}
+
+.OutSDRs .how-we-do-it .text-content {
+    /* flex: 1; */
+    max-width: 80%;
+    margin: auto;
+    background-color: #13395D;
+    border-radius: 36px;
+    padding: 30px;
+}
+@media (max-width:800px) {.OutSDRs .how-we-do-it .text-content {
+    max-width: 100%;
+}}
+@media (min-width:800px) {.OutSDRs .how-we-do-it .text-content {
+    position: relative;
+    bottom: 150px;
+}}
+@media (min-width:800px) {.OutSDRs .how-we-do-it .container {height: 1000px;}}
+
+.OutSDRs .how-we-do-it h1 {
+    text-align: center;
+    /* background-color: violet; */
+    margin-bottom: 30px;
+}
+.OutSDRs .how-we-do-it ul {
+    /* background-color: wheat; */
+    padding-left: 2rem;
+}
+.OutSDRs .how-we-do-it li {
+    color: white;
+    /* background-color:turquoise; */
+    list-style-image: url('../../assets/tick.svg');
+    padding: 8px 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+@media (min-width:800px) {.OutSDRs .how-we-do-it li {padding: 22px 0;}}
+
+/* .how-we-do-it strong {padding-bottom: 3rem;} */
+
+.OutSDRs .how-we-do-it li::marker {
+    font-size: 2.3rem;
+    line-height: 3px;
+}
+
+/* .SectionChecklist {
+    font-size: 1.2rem;
+    position: relative;
+    left: 1.5rem;
+}
+.SectionChecklist li {
+    padding: 0.5rem 0 0.5rem 0;
+    list-style-image: url('../../assets/tick.svg')
+}
+.SectionChecklist li::marker {
+    font-size: 2.6rem;
+    line-height: 3px;
+} */
+
+/* Problems Section */
+.OutSDRs .problems-sdr {
+    background: #dce8f8;
+    padding: 50px 0;
+    color: #183a5a;
+}
+.OutSDRs .problems-sdr .container{
+    padding: 16px;
+    /* background-color: #e8910575; */
+}
+.OutSDRs .problems-sdr h1 {
+    color: black;
+    /* text-align: center; */
+    padding-bottom: 32px;
+}
+
+.OutSDRs .problems-grid {
+    /* background-color: #9FC5E8; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.OutSDRs .problems-grid .problem {
+    /* background-color: #8b8198; */
+    width: 270px;
+}
+/* @media (max-width:800px) {.problems-grid {
+    gap: 10px;
+}} */
+.OutSDRs .problems-grid strong {font-size: 1.5rem;}
+/* .problems-grid p {line-height: 1.5rem;} */
+.OutSDRs .problems-grid p {
+    /* background-color: rgba(56, 128, 192, 0.338); */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Why SDR Section */
+.OutSDRs .why-sdr-important {
+    background: #ffffff;
+    padding: 50px 0;
+}
+
+.OutSDRs .why-sdr-important .container {
+    padding: 16px;
+}
+
+.OutSDRs .why-sdr-important h2 {
+    margin-bottom: 45px;
+    color: black;
+}
+
+.OutSDRs .importance-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.OutSDRs .importance-item {
+    min-width: 267;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    text-align: center;
+}

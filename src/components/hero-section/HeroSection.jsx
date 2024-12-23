@@ -20,8 +20,8 @@ function HeroSection() {
                     </div>
 
                     <div className="HeroDescription">
-                        <p> We find and place top overseas sales talent. </p>
-                        <p> Don't want the hassle of managing international sales reps? We’ll build you a fully managed sales team. </p>
+                        <p>We identify and recruit exceptional international sales professionals. If you prefer to avoid the complexities
+                            of overseeing overseas sales representatives, we can create a completely managed sales team for you.</p>
                     </div>
                     
                     <div className="HeroButtons">

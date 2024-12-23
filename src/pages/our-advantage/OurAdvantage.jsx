@@ -15,12 +15,12 @@ function OAsection1() {
         <section className="OA-section1">
 
             <div className="OA-s1-text-container">
-                <h1>What Sets Us Apart</h1>
-                <p>Our execs have led sales teams at top high growth SaaS companies so we know exactly what caliber of talent is needed to guarantee success.</p>
-                <p>You can choose the model that best suits your business needs:</p>
+                <h1>What Distinguishes Us</h1>
+                <p>Our executives have successfully directed sales teams at leading high-growth SaaS firms, equipping us with a deep understanding of the talent required to ensure success.</p>
+                <p>You have the option to select the model that aligns best with your business requirements:</p>
                 <ul>
-                    <li><strong>Managed Model</strong> – you outsource the entire job to us. We recruit, train, & manage an offshore sales team. No headache, just results.</li>
-                    <li><strong>Recruiter Model</strong> – want to explore 1-2 low-cost sales reps or plug 20 into a system that’s already working? Our professional recruiters ensure you get the right candidates.</li>
+                    <li><strong>Managed Model</strong> – you delegate the entire process to us. We handle the recruitment, training, and management of an offshore sales team. Experience seamless results without the hassle.</li>
+                    <li><strong>Recruiter Model</strong> – whether you are looking to add 1-2 cost-effective sales representatives or integrate 20 into an existing system, our expert recruiters will guarantee you find the ideal candidates.</li>
                 </ul>
             </div>
 
@@ -36,37 +36,37 @@ function OAsection2() {
         <div className="OAsection2">
         <section className="benefits-container">
 
-            <h1>Benefits to you</h1>
+            <h1>Advantages for you</h1>
 
             <div className="benefits">
                 <div className="benefit">
-                    <h2>➔ Increase sales/revenue by 3-5x</h2>
-                    <p>Realize massive potential through reps that cost 1-2k/month but perform just as well as your current reps.</p>
+                    <h2>➔ Enhance sales and revenue by 3-5 times</h2>
+                    <p>Unlock significant potential by employing representatives who cost between $1,000 and $2,000 per month, yet deliver performance comparable to your existing team.</p>
                 </div>
 
                 <div className="benefit">
-                    <h2>➔ Lower CAC</h2>
-                    <p>Spend up to 80% less on top talent to increase profitability & reduce burn.</p>
+                    <h2>➔ Reduce Customer Acquisition Cost (CAC)</h2>
+                    <p>Achieve up to an 80% reduction in expenditure on top-tier talent, thereby boosting profitability and minimizing financial losses.</p>
                 </div>
 
                 <div className="benefit">
-                    <h2>➔ Increase the diversity within your organization</h2>
-                    <p>Diverse teams are high-performing teams.</p>
+                    <h2>➔ Foster greater diversity within your organization</h2>
+                    <p>Diverse teams consistently outperform their less diverse counterparts.</p>
                 </div>
 
                 <div className="benefit">
-                    <h2>➔ Increase pipeline/revenue</h2>
-                    <p>Hire 3-4 equally productive reps at the same cost as just 1 of your current heads.</p>
+                    <h2>➔ Expand your pipeline and revenue</h2>
+                    <p>Recruit 3-4 equally effective representatives for the same investment as one of your current employees.</p>
                 </div>
 
                 <div className="benefit">
-                    <h2>➔ Efficiently target lower revenue ACV streams</h2>
-                    <p>Tap into markets that might otherwise have been unfeasible.</p>
+                    <h2>➔ Strategically target lower revenue Annual Contract Value (ACV) segments</h2>
+                    <p>Explore markets that may have previously seemed impractical to penetrate.</p>
                 </div>
 
                 <div className="benefit">
-                    <h2>➔ Provide life-changing opportunities</h2>
-                    <p>Provide once-in-a-lifetime opportunities to hungry sales professionals that are 100% driven to succeed.</p>
+                    <h2>➔ Create transformative opportunities</h2>
+                    <p>Offer exceptional career prospects to ambitious sales professionals who are fully committed to achieving success.</p>
                 </div>
 
             </div>

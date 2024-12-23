@@ -2,6 +2,7 @@ import './Navbar.css'
 import barsIcn from "../../assets/bars.svg"
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import downIcn from "../../assets/down.svg"
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
@@ -52,7 +53,15 @@ const Logo = () => <Link to='/' className='Logo'> Quotara </Link>
 function NavLinks() {
     return (
         <ul className='NavLinks'>
-            <Link to="/"> <li> Home </li> </Link>
+            {/* <Link to="/"> <li> Home </li> </Link> */}
+            <button className='ServicesButton'>Services<img src={downIcn} alt="down icon"/>
+                <div className="ServicesDropDown">
+                    <Link to="OutboundSDRs"> Outbound SDRs </Link>
+                </div>
+            </button>
+
+            
+            
             <Link to="OurAdvantage"> <li> Why Us </li> </Link>
             <Link to="AboutUs"> <li> About Us </li> </Link>
             <Link to="ContactUs"> <li> Pricing </li> </Link>
