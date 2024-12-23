@@ -58,7 +58,7 @@
   transition-duration: 0.2s;
 }
 .footer-left-section a img:hover {
-  transform: scale(1.1) translate(3px, 0);
+  transform: scale(1.1) ;
   /* height: 60px; */
 }
 

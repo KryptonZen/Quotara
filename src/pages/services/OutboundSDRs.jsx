@@ -2,14 +2,14 @@ import "./OutboundSDRs.css"
 import salesRepImg from "../../assets/out-1.jpg"
 import teamImg from "../../assets/out-2.png"
 
-import costlyImg from "../../assets/out-sdr/s5-1.png"
-import performImg from "../../assets/out-sdr/s5-2.png"
-import highImg from "../../assets/out-sdr/s5-3.png"
+import costlyImg from "../../assets/s5-1.png"
+import performImg from "../../assets/s5-2.png"
+import highImg from "../../assets/ou-3.png"
 
-import efficImg from "../../assets/out-sdr/rev.png"
-import acquImg from "../../assets/out-sdr/cus.png"
-import raisImg from "../../assets/out-sdr/awar.png"
-import optimImg from "../../assets/out-sdr/s4-4.png"
+import efficImg from "../../assets/rev.png"
+import acquImg from "../../assets/cus.png"
+import raisImg from "../../assets/awar.png"
+import optimImg from "../../assets/s4-4.png"
 
 
 function OutboundSDRs() {
