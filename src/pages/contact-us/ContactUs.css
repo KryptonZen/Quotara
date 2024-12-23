@@ -35,7 +35,7 @@
 .form-header h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #13395D;
+    color: #135d54;
 }
 
 .form-header p {
@@ -71,7 +71,7 @@
 }
 
 .form-row button {
-    background-color: #007bff;
+    background-color: #008957;
     color: #fff;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -85,7 +85,7 @@
 }
 
 .form-row button:hover {
-    background-color: #0056b3;
+    background-color: rgb(0, 109, 71);
 }
 
 /* Responsive Styles */

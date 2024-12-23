@@ -19,8 +19,8 @@ function AboutUs() {
                         <img src={visionImg} alt="Vision Image"/>
                         <div className="text">
                             <p>
-                                Operate seeks to become the leading sales provider in the world and to be our clients’ competitive advantage over the rest of their industry. 
-                                We maintain a continuous pursuit of innovation and excellence and base our approach to sales around that philosophy.
+                            Quotara aims to establish itself as the foremost sales provider globally, serving as a competitive advantage for our clients within their respective industries.
+                            We are committed to an ongoing quest for innovation and excellence, which fundamentally shapes our sales strategy.
                             </p>
                         </div>
                     </div>
@@ -31,8 +31,8 @@ function AboutUs() {
                     <div className="content">
                         <div className="text">
                             <p>
-                                We aim to consistently deliver the highest quality of sales services available, while continuing to exceed client expectations. 
-                                Our team of highly motivated professionals continuously strive to improve and achieve, and be the best possible partner for your business.
+                            We are committed to consistently providing the highest standard of sales services, while also surpassing client expectations.
+                            Our dedicated team of professionals is continually working to enhance their skills and performance, ensuring that we remain the most effective partner for your business.
                             </p>
                         </div>
                         <img src={missionImg} alt="Mission Image"/>

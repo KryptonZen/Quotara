@@ -49,13 +49,11 @@ function Navbar() {
 
 const Logo = () => <Link to='/' className='Logo'> Quotara </Link>
 
-{/* <div className='Logo'> Quotara </div> */}
-
 function NavLinks() {
     return (
         <ul className='NavLinks'>
             <Link to="/"> <li> Home </li> </Link>
-            <Link to="OurAdvantage"> <li> Our Advantage </li> </Link>
+            <Link to="OurAdvantage"> <li> Why Us </li> </Link>
             <Link to="AboutUs"> <li> About Us </li> </Link>
             <Link to="ContactUs"> <li> Pricing </li> </Link>
         </ul>

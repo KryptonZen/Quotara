@@ -51,15 +51,15 @@ function Section2() {
             <img className="ImageBlock" src={img2} alt="person working on laptop" />
 
             <div className="TextBlock" id="Section2TextBlock">
-                <h2 className="SectionHeading">Let us find the perfect fit for you!</h2>
-                <p className="SectionDescription">Your new favorite employee is just a step away</p>
+                <h2 className="SectionHeading">We'll find the perfect match for your needs!</h2>
+                <p className="SectionDescription">Your ideal employee is whitin reach, ready to make a difference</p>
                 <ul className="SectionChecklist">
-                    <li> <strong>Effortless remote hiring</strong> </li>
-                        <p>Our professional recruiting team will find, interview and thoroughly vet candidates for you</p>
-                    <li> <strong>Guaranteed top remote talent</strong> </li>
-                        <p>‍We guarantee the perfect fit for your company, and in the event of any unforeseen circumstances, will replace your hired talent for you free of cost.</p>
-                    <li> <strong>No hidden or recurring fees</strong> </li>
-                        <p>‍Once you’ve selected your perfect candidate, a straightforward one-time fee is all you’ll pay</p>
+                    <li> <strong>Seamless remote recruitment</strong> </li>
+                        <p>Let our skilled recruiting team handle the search, interviews, and comprehensive vetting of candidates for you</p>
+                    <li> <strong>Assured access to elite remote talent</strong> </li>
+                        <p>We ensure that you find the right match for your business, and if any unforeseen situations occur, we will provide a replacement at no extra cost</p>
+                    <li> <strong>Transparent pricing</strong> </li>
+                        <p>‍Once you’ve chosen your ideal candidate, you’ll only pay a single, transparent fee. No hidden or recurring charges.</p>
                 </ul>
             </div>
             
@@ -73,12 +73,12 @@ function Section3() {
             <div className='Section' id="section3">
 
                 <div className="TextBlock">
-                    <h2 className="SectionHeading">Fully Managed Sales Teams</h2>
-                    <p className="SectionDescription">We build custom SDR/BDR/AE teams to fit our client’s specs.</p>
+                    <h2 className="SectionHeading">Entirely Managed Sales Teams</h2>
+                    <p className="SectionDescription">We build personalized SDR, BDR, and AE teams that are tailored to the distinct specifications provided by our clients</p>
                     <ul className="SectionChecklist">
-                        <li>Hire top 1% international sales talent</li>
-                        <li>Proven US sales management to oversee team performance</li>
-                        <li>No hassle, just results</li>
+                        <li>Secure the finest 1% of global sales talent</li>
+                        <li>Experienced US sales management to supervise team performance effectively</li>
+                        <li>Easy operation, proven success.</li>
                     </ul>
                 </div>
 
